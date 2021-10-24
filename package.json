@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "global-country-state-city-select",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "all countries with it's states and cities ",
   "main": "./dist/index.js",
   "scripts": {
