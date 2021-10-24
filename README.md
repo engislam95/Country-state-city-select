@@ -9,4 +9,4 @@ Install
 npm i global-country-state-city-select
 
 Usage
-Release : v1.0.0 
+Release : v1.0.2 
