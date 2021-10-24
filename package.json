@@ -1,0 +1,30 @@
+{
+  "private": false,
+  "name": "global-country-state-city-select",
+  "version": "1.0.1",
+  "description": "all countries with it's states and cities ",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve SelectCountryStateCity.vue",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engislam95/Country-state-city-select.git"
+  },
+  "author": "Islam Baidaq",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+
+  "devDependencies": {
+    "bili": "^5.0.5",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.20"
+  }
+}
