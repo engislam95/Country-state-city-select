@@ -18,6 +18,17 @@
   "files": [
     "dist/*"
   ],
+   "keywords": [
+    "Country",
+    "State",
+    "City",
+    "SelectCountry" ,
+    "SelectCountryCity" ,
+    "SelectCountryState" ,
+    "SelectCountryStateCity" ,
+    "DropdownCountry",
+    "CountrySelectVue.js"
+  ],
   "devDependencies": {
     "bili": "^5.0.5",
     "rollup-plugin-vue": "^6.0.0",
