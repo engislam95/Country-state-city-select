@@ -1,30 +1,53 @@
-<h1> Country-state-city-select </h1>
-<p> Basic library for Country, State and City with select inputs built with vue.js  </p>
+# Country State City Select
+#### Basic library for Country, State and City with select inputs 
 
-<h1> Data Source: </h1>
-<a href="https://github.com/engislam95/Country-state-city-select"> Country-state-city-select </a>
-<p> For any data related issue, you can raise a Issue here. </p>
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/engislam95/Country-state-city-select)
+
+Basic library for Country, State and City with select inputs built with vue.js.
+
+- Input select with all countries around the world
+- Select for states of that country
+- Input select with option Cities belong to that state 
+
+## Installation
+
+CountryStateCitySelect  requires [Node.js](https://nodejs.org/)  to run.
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd 'your folder'
+npm i
+npm install -g @vue/cli
+npm install -g @vue/cli-service-global
+npm i global-country-state-city-select 
+```
+
+## Plugins
+
+CountryStateCitySelect  is currently extended with the following plugins.
+Instructions on how to use them in your own application are linked below.
+
+| Plugin | README |
+| ------ | ------ |
+| Bili | [https://bili.egoist.sh][PlDb] |
+| Rollup.js  | [https://rollupjs.org/guide][PlGh] |
 
 
+#### How to use it 
 
+In your main.js, or a similar entry point for your app:
 
-<h1> How to Use Your Newly Published Library </h1>
-<p> You can install it like any other package: </p>
+```sh
+import SelectCountryStateCity from "SelectCountryStateCity";
+```
+```sh
+import Vue from "vue";
+```
+```sh
+Vue.use(SelectCountryStateCity);
+```
 
-<h2> Install </h2>
-<p> npm i global-country-state-city-select </p>
+## License
 
-<h2> Bash </h2>
-<p> In your main.js, or a similar entry point for your app: </p>
-<ul> 
-<li>import SelectCountryStateCity from "SelectCountryStateCity";</li>
-<li>import Vue from "vue";</li>
-<li>Vue.use(SelectCountryStateCity);;</li>
-</ul>
-
-<br>
-<h1> Usage </h1>
-<p> Release : v1.0.2 </p>
-
-
-
+MIT
