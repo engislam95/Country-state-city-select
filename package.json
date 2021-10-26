@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "global-country-state-city-select",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "all countries with it's states and cities ",
   "main": "./dist/index.js",
   "scripts": {
@@ -18,7 +18,6 @@
   "files": [
     "dist/*"
   ],
-  
   "keywords": [
     "Country",
     "State",
@@ -30,7 +29,9 @@
     "DropdownCountry",
     "CountrySelectVue.js"
   ],
-  "publishConfig": { "registry": "https://r.privjs.com" }  ,
+  "publishConfig": {
+    "registry": "https://r.privjs.com"
+  },
   "devDependencies": {
     "bili": "^5.0.5",
     "rollup-plugin-vue": "^6.0.0",
