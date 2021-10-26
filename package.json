@@ -18,6 +18,7 @@
   "files": [
     "dist/*"
   ],
+  
   "keywords": [
     "Country",
     "State",
@@ -29,6 +30,7 @@
     "DropdownCountry",
     "CountrySelectVue.js"
   ],
+  "publishConfig": { "registry": "https://r.privjs.com" }  ,
   "devDependencies": {
     "bili": "^5.0.5",
     "rollup-plugin-vue": "^6.0.0",
