@@ -28,11 +28,11 @@ npm i global-country-state-city-select
 ## Props
 
 |                    Props                    |  Type   |                 Default                 |                                                         Description                                                          |
-| :-----------------------------------------: | :-----: | :-------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: | --- |
+| :-----------------------------------------: | :-----: | :-------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: | 
 |    countryLabel , stateLabel , cityLabel    | String  | Choose your { country , state , city }: |                                            Label to show above the select input.                                             |
 | countryBgColor , stateBgColor , cityBgColor | String  |                 default                 |                 Background color of your input select with white text accept option { blue , red , green }.                  |
 |     countrySize , stateSize , citySize      | String  |            default { 14px }             | Applying {padding , borderRadius , fontSize , lineHeight } of your input select and accept option {small , default , large } |
-| countryRounded , stateRounded , cityRounded | Boolean |            default { True }             |                  Applying { borderRadius of 60px } of your input select and accept option { true , false }                   | 3   |
+| countryRounded , stateRounded , cityRounded | Boolean |            default { True }             |                  Applying { borderRadius of 60px } of your input select and accept option { true , false }                   | 
 
 ## Usage Example
 
