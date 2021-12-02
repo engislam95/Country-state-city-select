@@ -1,11 +1,11 @@
 {
   "private": false,
   "name": "global-country-state-city-select",
-  "version": "1.0.6",
-  "description": "all countries with it's states and cities ",
+  "version": "1.0.7",
+  "description": "All countries with it's states and cities ",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "vue serve SelectCountryStateCity.vue",
+    "dev": "vue serve ./src/SelectCountryStateCity.vue",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "bili --name index --plugin vue --vue.css false"
   },
@@ -30,7 +30,7 @@
     "CountrySelectVue.js"
   ],
   "publishConfig": {
-    "registry": "https://r.privjs.com"
+    "registry": "https://github.com/engislam95/Country-state-city-select"
   },
   "devDependencies": {
     "bili": "^5.0.5",
